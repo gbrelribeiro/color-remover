@@ -2,9 +2,15 @@
   Removedor de Cor
 </h1>
 
-<p align="center">
-  Aplicação desktop com interface gráfica que remove uma cor específica de imagens, tornando os pixels correspondentes transparentes e salvando o resultado em PNG.
-</p>
+## ⬇️ Download
+
+| Versão | Download |
+|---|---|
+| v1.0.0 (Windows) | [**color_remove.exe**](https://github.com/gbrelribeiro/color-remover/releases/tag/v1.0.0) |
+
+> Não precisa ter Python instalado — só baixar e executar.
+
+Aplicação desktop com interface gráfica que remove uma cor específica de imagens, tornando os pixels correspondentes transparentes e salvando o resultado em PNG.
 
 ## Descrição
 
@@ -44,7 +50,7 @@ python color_remove.py
 
 ### 2. Selecione uma imagem
 
-Clique em ** Procurar arquivo…** e escolha a imagem desejada. O preview original aparecerá à direita.
+Clique em **Procurar arquivo…** e escolha a imagem desejada. O preview original aparecerá à direita.
 
 ### 3. Defina a cor a remover
 
@@ -64,6 +70,6 @@ Use o slider para controlar a sensibilidade da remoção:
 
 ### 5. Processe e salve
 
-Clique em ** Remover Cor**. Após o processamento, o resultado aparecerá no preview e o botão ** Salvar PNG** ficará ativo.
+Clique em **Remover Cor**. Após o processamento, o resultado aparecerá no preview e o botão **Salvar PNG** ficará ativo.
 
-O arquivo é salvo com o nome `<original>_sem_<HEX>.png` na pasta `output/`.
+O arquivo é salvo com o nome `<original>_sem_<HEX>.png` no local que desejar.
